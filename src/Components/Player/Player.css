@@ -1,0 +1,34 @@
+ .playername{
+     color:orange;
+     
+     margin-bottom: 20px;
+ }
+ .player{
+    border-bottom: 1px solid lightgrey;
+    
+    
+    
+    
+    
+
+ }
+ .player img{
+     width: 200px;
+ }
+.playername button{
+    background-color: black;
+    color: white;
+    border:1px solid orange;
+    width:200px;
+    height: 20px;
+}
+.playername button:hover{
+    background-color: lightgrey;
+    color:black;
+}
+.icon{
+    margin-right: 10px;
+    
+
+}
+ 

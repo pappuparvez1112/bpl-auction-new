@@ -1,0 +1,18 @@
+.selectcontainer{
+    display: flex;
+    
+    background-color: whitesmoke;
+    
+}
+.playercontainer{
+    width: 1100px;
+    border-right: 1px solid burlywood;
+    
+    text-align: center;
+    
+}
+.teamcontainer{
+    padding-left: 10px;
+    
+    margin-left: 100px;
+}
