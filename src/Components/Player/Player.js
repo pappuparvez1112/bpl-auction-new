@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 import './Player.css'
+import Cart from '../Cart/Cart';
 
 const Player = (props) => {
     const {first_name,gender,img,price}=props.player;
@@ -19,7 +20,7 @@ const Player = (props) => {
             <h5>{gender}</h5>
             <h4>${price}</h4>
             <button > <FontAwesomeIcon className="icon" onClick={() =>props.handlePlayer(props.player)} icon={faPlusSquare} />Add to Team</button>
-
+            
             </div>
             
         </div>
